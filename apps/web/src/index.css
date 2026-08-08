@@ -34,31 +34,36 @@
  */
 
 @layer base {
+  /*
+   * SYNTHO official color system (Paleta de Cores — Sistema Cromático v1.1).
+   * Principais (identidade): Absinthe (assinatura), Verdigris (inteligência), Moss (cultura).
+   * Contrastes (CTAs/destaques): Aureum (dourado), Vinterra, Aubergine, Oceanic, Ivoryn.
+   * Neutros (fundos/textos): Warm White, Mist, Stone, Graphite, Eclipse.
+   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 10%;
+    --background: 45 33% 95%; /* Warm White #F7F5EF */
+    --foreground: 150 4% 11%; /* Eclipse #1A1C1B */
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card-foreground: 150 4% 11%; /* Eclipse */
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
-    
-    /* SYNTHO Brand Colors: Verde-azulado (Teal/Inteligência Cultural) e Dourado (Essência) */
-    --primary: 168 62% 26%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 38 68% 54%;
-    --secondary-foreground: 0 0% 10%;
+    --popover-foreground: 150 4% 11%; /* Eclipse */
 
-    --muted: 165 12% 96%;
-    --muted-foreground: 165 6% 40%;
-    --accent: 168 62% 26%;
-    --accent-foreground: 0 0% 100%;
+    --primary: 156 52% 17%; /* Absinthe Green #154230 — cor de assinatura da marca */
+    --primary-foreground: 45 33% 95%; /* Warm White */
+    --secondary: 53 52% 51%; /* Aureum #C3B342 — dourado de contraste/CTA */
+    --secondary-foreground: 150 4% 11%; /* Eclipse */
+
+    --muted: 140 17% 93%; /* Absinthe Veil #EAF0EC */
+    --muted-foreground: 150 2% 43%; /* Stone #6B6F6D */
+    --accent: 156 52% 17%; /* Absinthe Green */
+    --accent-foreground: 45 33% 95%; /* Warm White */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 165 10% 90%;
-    --input: 165 10% 90%;
-    --ring: 168 62% 26%;
+    --border: 150 4% 90%; /* Mist #E5E7E6 */
+    --input: 150 4% 90%; /* Mist */
+    --ring: 156 52% 17%; /* Absinthe Green */
     --radius: 0.5rem;
-    
+
     /* Elevation Shadows */
     --shadow-elevation-1: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
     --shadow-elevation-2: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.08);
@@ -66,28 +71,28 @@
   }
 
   .dark {
-    --background: 0 0% 10%;
-    --foreground: 0 0% 96%;
-    --card: 0 0% 12%;
-    --card-foreground: 0 0% 96%;
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 96%;
-    
-    --primary: 168 55% 45%;
-    --primary-foreground: 0 0% 10%;
-    --secondary: 38 68% 54%;
-    --secondary-foreground: 0 0% 10%;
+    --background: 162 86% 5%; /* Absinthe Noir #021A13 */
+    --foreground: 45 33% 95%; /* Warm White */
+    --card: 162 87% 9%; /* Absinthe Deep #032A1E */
+    --card-foreground: 45 33% 95%; /* Warm White */
+    --popover: 162 86% 5%; /* Absinthe Noir */
+    --popover-foreground: 45 33% 95%; /* Warm White */
 
-    --muted: 165 8% 15%;
-    --muted-foreground: 165 6% 65%;
-    --accent: 168 55% 45%;
-    --accent-foreground: 0 0% 10%;
+    --primary: 136 39% 55%; /* Emerald Sage #5EB976 */
+    --primary-foreground: 162 86% 5%; /* Absinthe Noir */
+    --secondary: 53 52% 51%; /* Aureum #C3B342 */
+    --secondary-foreground: 162 86% 5%; /* Absinthe Noir */
+
+    --muted: 162 87% 9%; /* Absinthe Deep */
+    --muted-foreground: 145 18% 73%; /* Pale Absinthe #AFC7B9 */
+    --accent: 136 39% 55%; /* Emerald Sage */
+    --accent-foreground: 162 86% 5%; /* Absinthe Noir */
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
-    --border: 165 8% 20%;
-    --input: 165 8% 20%;
-    --ring: 168 55% 45%;
-    
+    --border: 162 40% 16%;
+    --input: 162 40% 16%;
+    --ring: 136 39% 55%; /* Emerald Sage */
+
     /* Elevation Shadows Dark */
     --shadow-elevation-1: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
     --shadow-elevation-2: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);

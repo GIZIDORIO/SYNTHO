@@ -75,7 +75,7 @@ function HomePage() {
           <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img src="/images/escadaria-luz.jpg" alt="Escadaria em espiral iluminada por um facho de luz, simbolizando direção e relevância" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/85" />
+              <div className="absolute inset-0 bg-gradient-to-b from-[#021A13]/85 via-[#021A13]/60 to-[#021A13]/90" />
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -304,7 +304,7 @@ function HomePage() {
           <section className="relative py-28 overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img src="/images/silhueta-por-do-sol.jpg" alt="Silhueta observando o pôr do sol sobre a cidade" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/60" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#021A13]/95 via-[#021A13]/75 to-[#021A13]/65" />
             </div>
             <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <motion.div initial={{
