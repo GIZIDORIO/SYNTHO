@@ -16,7 +16,7 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2">
-              <img src="/logo/syntho-icon-green.png" alt="" className="h-7 w-auto" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/logo/syntho-icon-green.png" alt="" className="h-7 w-auto" />
               <span className="text-2xl font-bold text-foreground tracking-tight" style={{
               letterSpacing: '-0.02em'
             }}>SYNTHO</span>

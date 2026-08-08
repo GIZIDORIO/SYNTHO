@@ -74,7 +74,7 @@ function HomePage() {
         <main className="flex-1">
           <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
-              <img src="/images/escadaria-luz.jpg" alt="Escadaria em espiral iluminada por um facho de luz, simbolizando direção e relevância" className="w-full h-full object-cover" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/images/escadaria-luz.jpg" alt="Escadaria em espiral iluminada por um facho de luz, simbolizando direção e relevância" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-b from-[#021A13]/85 via-[#021A13]/60 to-[#021A13]/90" />
             </div>
 
@@ -146,7 +146,7 @@ function HomePage() {
 
           <section className="relative py-24 overflow-hidden">
             <div className="absolute inset-0 z-0">
-              <img src="/images/cupula-jardim.jpg" alt="Cúpula de vidro e vegetação sobre uma estrutura arquitetônica, simbolizando infraestrutura estratégica" className="w-full h-full object-cover" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/images/cupula-jardim.jpg" alt="Cúpula de vidro e vegetação sobre uma estrutura arquitetônica, simbolizando infraestrutura estratégica" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-background/95" />
             </div>
             <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -303,7 +303,7 @@ function HomePage() {
 
           <section className="relative py-28 overflow-hidden">
             <div className="absolute inset-0 z-0">
-              <img src="/images/silhueta-por-do-sol.jpg" alt="Silhueta observando o pôr do sol sobre a cidade" className="w-full h-full object-cover" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/images/silhueta-por-do-sol.jpg" alt="Silhueta observando o pôr do sol sobre a cidade" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-[#021A13]/95 via-[#021A13]/75 to-[#021A13]/65" />
             </div>
             <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

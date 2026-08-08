@@ -27,7 +27,7 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo/syntho-icon-green.png" alt="" className="h-8 w-auto" />
+            <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/logo/syntho-icon-green.png" alt="" className="h-8 w-auto" />
             <span className="text-2xl font-bold tracking-tight" style={{
             letterSpacing: "-0.02em"
           }}>SYNTHO</span>

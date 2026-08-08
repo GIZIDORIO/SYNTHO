@@ -84,7 +84,7 @@ function CasesPage() {
 
           <section className="relative py-20 overflow-hidden">
             <div className="absolute inset-0 z-0">
-              <img src="/images/colunas-classicas.jpg" alt="Arquitetura clássica remetendo à tradição secular das Cavalhadas da Franca" className="w-full h-full object-cover" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/images/colunas-classicas.jpg" alt="Arquitetura clássica remetendo à tradição secular das Cavalhadas da Franca" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-background/95" />
             </div>
             <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
