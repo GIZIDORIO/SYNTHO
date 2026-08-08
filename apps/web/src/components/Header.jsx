@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
+import { ASSET_BASE } from '@/lib/cdn.js';
 function Header() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo/syntho-icon-green.png" alt="" className="h-8 w-auto" />
+            <img src={`${ASSET_BASE}/logo/syntho-icon-green.png`} alt="" className="h-8 w-auto" />
             <span className="text-2xl font-bold tracking-tight" style={{
             letterSpacing: "-0.02em"
           }}>SYNTHO</span>

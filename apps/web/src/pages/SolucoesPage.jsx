@@ -6,6 +6,7 @@ import { ArrowRight, CheckCircle2, Fingerprint, Sparkles, Eye, Landmark, Users, 
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
+import { ASSET_BASE } from '@/lib/cdn.js';
 
 function SolucoesPage() {
   const solucoes = [{
@@ -14,7 +15,7 @@ function SolucoesPage() {
     title: 'Brand Management',
     tagline: 'Gestão estratégica de marca para construir, preservar e expandir valor.',
     items: ['Posicionamento e propósito', 'Arquitetura da marca', 'Identidade verbal e visual', 'Brand governance', 'Comunicação estratégica', 'Employer branding'],
-    image: '/images/colunas-classicas.jpg',
+    image: 'images/colunas-classicas.jpg',
     alt: 'Colunas clássicas de uma fachada, remetendo a solidez e identidade de marca'
   }, {
     number: '02',
@@ -22,7 +23,7 @@ function SolucoesPage() {
     title: 'Brand Experience',
     tagline: 'Experiências que transformam estratégia em conexão real e memorável.',
     items: ['Eventos corporativos e culturais', 'Congressos e convenções', 'Lançamentos e ativações', 'Experience design', 'Hospitalidade e programas', 'Experiências imersivas'],
-    image: '/images/roda-gigante-1.jpg',
+    image: 'images/roda-gigante-1.jpg',
     alt: 'Roda-gigante em tons de verde-água, remetendo a experiências memoráveis'
   }, {
     number: '03',
@@ -30,7 +31,7 @@ function SolucoesPage() {
     title: 'Cultural Intelligence',
     tagline: 'Inteligência cultural para interpretar comportamentos e antecipar o futuro.',
     items: ['Pesquisas e escutas ativas', 'Análise de tendências', 'Coolhunting e social listening', 'Mapeamento cultural', 'Sinais fracos e cenários', 'Insights aplicados ao negócio'],
-    image: '/images/abstrato-rocha-verde.jpg',
+    image: 'images/abstrato-rocha-verde.jpg',
     alt: 'Rocha escura envolta em luz verde emergindo da escuridão, remetendo a sinais fracos e cenários'
   }, {
     number: '04',
@@ -38,7 +39,7 @@ function SolucoesPage() {
     title: 'Projetos Culturais',
     tagline: 'Estruturamento de projetos e conexão de ideias a recursos e parceiros.',
     items: ['Leis de incentivo e editais', 'Patrocínios e parcerias', 'Projetos culturais, esportivos e sociais', 'Projetos regenerativos, ESG e impacto socioambiental', 'Prestação de contas'],
-    image: '/images/estrada-floresta.jpg',
+    image: 'images/estrada-floresta.jpg',
     alt: 'Estrada iluminada atravessando uma floresta, remetendo a um caminho estruturado até um objetivo'
   }, {
     number: '05',
@@ -46,7 +47,7 @@ function SolucoesPage() {
     title: 'Gestão de Comunidades',
     tagline: 'Construção, ativação e fortalecimento de comunidades para gerar valor contínuo.',
     items: ['Comunidades internas e externas', 'Programas de relacionamento', 'Clubes e associações', 'Embaixadores e influenciadores', 'Plataformas e engajamento', 'Governança de comunidades'],
-    image: '/images/homem-agua-sorriso.jpg',
+    image: 'images/homem-agua-sorriso.jpg',
     alt: 'Pessoa sorrindo sob gotas de água, remetendo a conexões humanas genuínas'
   }, {
     number: '06',
@@ -54,7 +55,7 @@ function SolucoesPage() {
     title: 'Consultoria Contínua',
     tagline: 'Acompanhamento estratégico para evoluir com consistência.',
     items: ['Diagnóstico e planejamento', 'Roadmap de iniciativas', 'Governança e KPIs', 'Mentoria e advisory', 'Acompanhamento contínuo', 'Suporte à tomada de decisão'],
-    image: '/images/escadaria-luz-2.jpg',
+    image: 'images/escadaria-luz-2.jpg',
     alt: 'Escadaria em espiral iluminada, remetendo a acompanhamento e direção contínua'
   }];
 
@@ -99,7 +100,7 @@ function SolucoesPage() {
                       transition={{ duration: 0.6 }}
                       className="relative aspect-[4/3] rounded-2xl overflow-hidden"
                     >
-                      <img src={solucao.image} alt={solucao.alt} className="w-full h-full object-cover" loading="lazy" />
+                      <img src={`${ASSET_BASE}/${solucao.image}`} alt={solucao.alt} className="w-full h-full object-cover" loading="lazy" />
                     </motion.div>
 
                     <motion.div
