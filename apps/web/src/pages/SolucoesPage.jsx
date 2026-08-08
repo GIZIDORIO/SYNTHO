@@ -30,16 +30,16 @@ function SolucoesPage() {
     title: 'Cultural Intelligence',
     tagline: 'Inteligência cultural para interpretar comportamentos e antecipar o futuro.',
     items: ['Pesquisas e escutas ativas', 'Análise de tendências', 'Coolhunting e social listening', 'Mapeamento cultural', 'Sinais fracos e cenários', 'Insights aplicados ao negócio'],
-    image: '/images/fumaca-biblioteca.jpg',
-    alt: 'Névoa esverdeada preenchendo uma biblioteca antiga, remetendo à leitura de sinais culturais'
+    image: '/images/abstrato-rocha-verde.jpg',
+    alt: 'Rocha escura envolta em luz verde emergindo da escuridão, remetendo a sinais fracos e cenários'
   }, {
     number: '04',
     icon: Landmark,
     title: 'Projetos Culturais',
     tagline: 'Estruturamento de projetos e conexão de ideias a recursos e parceiros.',
     items: ['Leis de incentivo e editais', 'Patrocínios e parcerias', 'Projetos culturais, esportivos e sociais', 'Projetos regenerativos, ESG e impacto socioambiental', 'Prestação de contas'],
-    image: '/images/tunel-verde.jpg',
-    alt: 'Túnel de folhagem verde, remetendo a um caminho estruturado até um objetivo'
+    image: '/images/estrada-floresta.jpg',
+    alt: 'Estrada iluminada atravessando uma floresta, remetendo a um caminho estruturado até um objetivo'
   }, {
     number: '05',
     icon: Users,
