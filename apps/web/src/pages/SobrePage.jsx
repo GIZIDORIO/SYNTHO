@@ -10,44 +10,44 @@ function SobrePage() {
   const filosofia = ['Compreender culturas', 'Conectar pessoas', 'Criar futuros', 'Transformar realidades'];
 
   const comoPensamos = [{
-    icon: Eye,
-    title: 'Inteligência Cultural',
-    description: 'Compreender antes de transformar.'
-  }, {
     icon: Users,
     title: 'Pessoas',
-    description: 'Transformação começa nas pessoas.'
-  }, {
-    icon: ShieldCheck,
-    title: 'Integridade',
-    description: 'Confiança nasce da coerência.'
+    description: 'Acreditamos que toda transformação começa nas pessoas.'
   }, {
     icon: MessagesSquare,
     title: 'Significado',
-    description: 'Conexões precisam permanecer.'
+    description: 'Acreditamos que vínculos devem permanecer na memória e gerar impacto.'
   }, {
     icon: Fingerprint,
     title: 'Essência',
-    description: 'Evoluir sem abandonar quem se é.'
+    description: 'Acreditamos que a verdadeira evolução preserva a identidade.'
+  }, {
+    icon: Eye,
+    title: 'Inteligência Cultural',
+    description: 'Acreditamos que compreender sempre vem antes de transformar.'
+  }, {
+    icon: ShieldCheck,
+    title: 'Integridade',
+    description: 'Acreditamos que confiança se constrói pela coerência entre discurso, decisões e atitudes.'
   }, {
     icon: Leaf,
-    title: 'Regeneração (ESG)',
-    description: 'O futuro exige responsabilidade e novo olhar.'
+    title: 'Sustentabilidade',
+    description: 'Acreditamos em um desenvolvimento que respeita pessoas, culturas, comunidades e o planeta.'
   }];
 
   const team = [{
     name: 'Grazieli Izidorio',
-    role: 'Diretora de estratégia',
+    role: 'Head de Projetos & Operações Estratégicas',
     initials: 'GI',
     color: 'bg-primary/20'
   }, {
     name: 'Murilo Durigan',
-    role: 'Diretor criativo',
+    role: 'Head de Cultura & Brand Experience',
     initials: 'MD',
     color: 'bg-secondary/20'
   }, {
     name: 'Claudio Beltrami',
-    role: 'Head de pesquisa cultural',
+    role: 'Head de Relacionamento & Hospitalidade',
     initials: 'CB',
     color: 'bg-muted-foreground/20'
   }];
@@ -83,13 +83,13 @@ function SobrePage() {
                 </p>
               </motion.div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
                 <motion.div initial={{
                 opacity: 0,
-                x: -20
+                y: 20
               }} whileInView={{
                 opacity: 1,
-                x: 0
+                y: 0
               }} viewport={{
                 once: true
               }} transition={{
@@ -105,14 +105,35 @@ function SobrePage() {
 
                 <motion.div initial={{
                 opacity: 0,
-                x: 20
+                y: 20
               }} whileInView={{
                 opacity: 1,
-                x: 0
+                y: 0
               }} viewport={{
                 once: true
               }} transition={{
-                duration: 0.6
+                duration: 0.6,
+                delay: 0.1
+              }}>
+                  <h2 className="text-2xl md:text-3xl font-semibold mb-4 leading-snug">
+                    Nossa visão
+                  </h2>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Ser a principal referência em inteligência humana e cultural, construindo um futuro onde marcas preservem sua essência, acompanhem transformações e evoluam com autenticidade.
+                  </p>
+                </motion.div>
+
+                <motion.div initial={{
+                opacity: 0,
+                y: 20
+              }} whileInView={{
+                opacity: 1,
+                y: 0
+              }} viewport={{
+                once: true
+              }} transition={{
+                duration: 0.6,
+                delay: 0.2
               }}>
                   <h2 className="text-2xl md:text-3xl font-semibold mb-4 leading-snug">
                     Nossa filosofia
