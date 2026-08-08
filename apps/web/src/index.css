@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    
+    /* SYNTHO Brand Colors: Verde-azulado (Teal/Inteligência Cultural) e Dourado (Essência) */
+    --primary: 168 62% 26%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 38 68% 54%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 165 12% 96%;
+    --muted-foreground: 165 6% 40%;
+    --accent: 168 62% 26%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 165 10% 90%;
+    --input: 165 10% 90%;
+    --ring: 168 62% 26%;
+    --radius: 0.5rem;
+    
+    /* Elevation Shadows */
+    --shadow-elevation-1: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+    --shadow-elevation-2: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.08);
+    --shadow-elevation-3: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+
+  .dark {
+    --background: 0 0% 10%;
+    --foreground: 0 0% 96%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 96%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 96%;
+    
+    --primary: 168 55% 45%;
+    --primary-foreground: 0 0% 10%;
+    --secondary: 38 68% 54%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 165 8% 15%;
+    --muted-foreground: 165 6% 65%;
+    --accent: 168 55% 45%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 165 8% 20%;
+    --input: 165 8% 20%;
+    --ring: 168 55% 45%;
+    
+    /* Elevation Shadows Dark */
+    --shadow-elevation-1: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-elevation-2: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+    --shadow-elevation-3: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5);
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "DM Sans", sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    overflow-x: clip;
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .shadow-elevation-1 {
+    box-shadow: var(--shadow-elevation-1);
+  }
+  .shadow-elevation-2 {
+    box-shadow: var(--shadow-elevation-2);
+  }
+  .shadow-elevation-3 {
+    box-shadow: var(--shadow-elevation-3);
+  }
+}
