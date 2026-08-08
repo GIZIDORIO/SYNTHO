@@ -6,7 +6,6 @@ import { ArrowRight, Ear, Target, ListChecks, Rocket, BarChart3, Zap, RefreshCw,
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
-import { ASSET_BASE } from '@/lib/cdn.js';
 
 function CasesPage() {
   const caseColunas = [{
@@ -85,7 +84,7 @@ function CasesPage() {
 
           <section className="relative py-20 overflow-hidden">
             <div className="absolute inset-0 z-0">
-              <img src={`${ASSET_BASE}/images/colunas-classicas.jpg`} alt="Arquitetura clássica remetendo à tradição secular das Cavalhadas da Franca" className="w-full h-full object-cover" />
+              <img src="https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public/images/colunas-classicas.jpg" alt="Arquitetura clássica remetendo à tradição secular das Cavalhadas da Franca" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-background/95" />
             </div>
             <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

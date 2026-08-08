@@ -6,7 +6,8 @@ import { ArrowRight, CheckCircle2, Fingerprint, Sparkles, Eye, Landmark, Users, 
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header.jsx';
 import Footer from '@/components/Footer.jsx';
-import { ASSET_BASE } from '@/lib/cdn.js';
+
+const ASSET_BASE = 'https://raw.githubusercontent.com/GIZIDORIO/SYNTHO/main/apps/web/public';
 
 function SolucoesPage() {
   const solucoes = [{
