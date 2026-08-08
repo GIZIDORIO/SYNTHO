@@ -15,9 +15,12 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <span className="text-2xl font-bold text-foreground tracking-tight" style={{
-            letterSpacing: '-0.02em'
-          }}>SYNTHO</span>
+            <div className="flex items-center gap-2">
+              <img src="/logo/syntho-icon-green.png" alt="" className="h-7 w-auto" />
+              <span className="text-2xl font-bold text-foreground tracking-tight" style={{
+              letterSpacing: '-0.02em'
+            }}>SYNTHO</span>
+            </div>
             <p className="mt-4 text-sm leading-relaxed max-w-prose">
               Humanizamos marcas, inspiramos pessoas e criamos conexões. Brand Experience e Inteligência Cultural para quem deseja permanecer relevante sem perder sua essência.
             </p>
