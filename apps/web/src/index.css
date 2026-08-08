@@ -1,8 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+ * Neue Haas Grotesk is the SYNTHO brand typeface but requires a paid webfont
+ * license from Commercial Type (commercialtype.com/license) — the desktop
+ * license does not cover @font-face embedding. Once licensed .woff2 files are
+ * available, drop them in /public/fonts and uncomment the @font-face rules
+ * below; "Neue Haas Grotesk" is already first in the body font stack, so it
+ * activates automatically with no further changes.
+ *
+ * @font-face {
+ *   font-family: 'Neue Haas Grotesk';
+ *   src: url('/fonts/NeueHaasGrotText-55Roman.woff2') format('woff2');
+ *   font-weight: 400;
+ *   font-style: normal;
+ *   font-display: swap;
+ * }
+ * @font-face {
+ *   font-family: 'Neue Haas Grotesk';
+ *   src: url('/fonts/NeueHaasGrotText-65Medium.woff2') format('woff2');
+ *   font-weight: 500;
+ *   font-style: normal;
+ *   font-display: swap;
+ * }
+ * @font-face {
+ *   font-family: 'Neue Haas Grotesk';
+ *   src: url('/fonts/NeueHaasGrotText-75Bold.woff2') format('woff2');
+ *   font-weight: 700;
+ *   font-style: normal;
+ *   font-display: swap;
+ * }
+ */
 
 @layer base {
   :root {
@@ -74,7 +103,7 @@
   }
 
   body {
-    font-family: "DM Sans", sans-serif;
+    font-family: "Neue Haas Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: hsl(var(--background));
     color: hsl(var(--foreground));
     overflow-x: clip;
